@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<employees>
+  <employee>
+    <name>Ivanov Ivan Ivanovich</name>
+    <age>24</age>
+    <position>JuniorEmployee</position>
+    <experience>5,1</experience>
+<retiree>true</retiree>
+  </employee>
+  <employee>
+    <name>Petrov Petr Petrovich</name>
+    <age>25</age>
+    <position>SeniorEmployee</position>
+    <experience>1,4</experience>
+<retiree>false</retiree>
+  </employee>
+  <employee>
+    <name>Kalita Ivan Danilovich</name>
+    <age>30</age>
+    <position>JuniorEmployee</position>
+    <experience>5</experience>
+    <retiree>false</retiree>
+  </employee>
+  <employee>
+    <name>Gordy Semyon Ivanovich</name>
+    <age>22</age>
+    <position>JuniorEmployee</position>
+    <experience>3,8</experience>
+    <retiree>false</retiree>
+  </employee>
+  <employee>
+    <name>Krastny Ivan Ivanovich</name>
+    <age>41</age>
+    <position>ProjectManager</position>
+    <experience>9,9</experience>
+    <retiree>true</retiree>
+  </employee>
+  <employee>
+    <name>Donskoy Dmitry Ivanovich</name>
+    <age>33</age>
+    <position>Manager</position>
+    <experience>4,7</experience>
+    <retiree>false</retiree>
+  </employee>
+  <employee>
+    <name>Tyomny Vasily Vasilievich</name>
+    <age>26</age>
+    <position>Manager</position>
+    <experience>3,3</experience>
+    <retiree>true</retiree>
+  </employee>
+  <employee>
+    <name>Zvenigorodsky Yuri Dmitrievich</name>
+    <age>26</age>
+    <position>MiddleEmployee</position>
+    <experience>2,7</experience>
+    <retiree>false</retiree>
+  </employee>
+  <employee>
+    <name>Kosoy Vasily Yurievich</name>
+    <age>19</age>
+    <position>JuniorEmployee</position>
+    <experience>0,4</experience>
+    <retiree>true</retiree>
+  </employee>
+  <employee>
+    <name>Shemyaka Dmitry Yurievich</name>
+    <age>43</age>
+    <position>ProjectManager</position>
+    <experience>15,2</experience>
+    <retiree>true</retiree>
+  </employee>
+  <employee>
+    <name>Grosny Ivan Vasilievich</name>
+    <age>31</age>
+    <position>MiddleEmployee</position>
+    <experience>6,3</experience>
+    <retiree>false</retiree>
+  </employee>
+</employees>
