@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp3.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:p="clr-namespace:WpfApp3.Properties"
+        mc:Ignorable="d"
+        Height="{Binding Source={x:Static p:Settings.Default}, Path=Height, Mode=TwoWay}"
+        Width="{Binding Source={x:Static p:Settings.Default}, Path=Width, Mode=TwoWay}"
+        Left="{Binding Source={x:Static p:Settings.Default}, Path=Left, Mode=TwoWay}"
+        Top="{Binding Source={x:Static p:Settings.Default}, Path=Top, Mode=TwoWay}">
+    <StackPanel Margin="20">
+        <TextBlock FontSize="24" FontWeight="Bold">Login</TextBlock>
+        <TextBlock FontSize="18">Usrename</TextBlock>
+        <TextBox x:Name="Username" HorizontalAlignment="Left" Width="200"/>
+        <TextBlock FontSize="18">Password</TextBlock>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Width="200" PasswordChar="*" />
+        <Button x:Name="Submit" HorizontalAlignment="Left" Width="100" Click="btnSubmit_Click">Submit</Button>
+
+
+    </StackPanel>
+</Window>
